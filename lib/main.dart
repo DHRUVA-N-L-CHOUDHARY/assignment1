@@ -1,5 +1,6 @@
+import 'package:assignment1/screens/display_screens.dart';
 import 'package:flutter/material.dart';
-import 'package:tic_tac_toe/screens/display_screens.dart';
+
 
 
 void main() {
