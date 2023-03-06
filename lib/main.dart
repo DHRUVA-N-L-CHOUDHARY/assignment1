@@ -1,22 +1,19 @@
-import 'package:assignment1/home_page.dart';
 import 'package:flutter/material.dart';
+import 'package:tic_tac_toe/screens/display_screens.dart';
+
 
 void main() {
-  runApp(const MyApp());
+  runApp( MyApp());
 }
 
 class MyApp extends StatelessWidget {
-  const MyApp({super.key});
+  const MyApp({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      title: 'Assignment 1',
+    return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      theme: ThemeData(
-        primarySwatch: Colors.blue,
-      ),
-      home: const HomePage(),
+      home: HomeScreen(),
     );
   }
 }
